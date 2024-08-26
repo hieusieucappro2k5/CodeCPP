@@ -13,7 +13,6 @@ int main()
 		int l=n.size();
 		map<char,int> mp;
 		for(int i=0;i<l;i++)
-		{
 			mp[n[i]]++;
 		int Max=0;
 		for(auto x:mp)
